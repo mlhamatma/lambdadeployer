@@ -1,0 +1,35 @@
+{
+    "name": "lambdadeployer",
+    "version": "0.0.1",
+    "description": "Manage the deployment of lambda on aws",
+    "main": "index.js",
+    "bin": {
+        "lambdadeployer": "./bin/lambdadeployer"
+    },
+    "scripts": {
+        "test": "node ./test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mlhamatma/lambdadeployer.git"
+    },
+    "keywords": [
+        "lambda",
+        "aws",
+        "devops",
+        "deploy"
+    ],
+    "author": "mlhamatma",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/mlhamatma/lambdadeployer/issues"
+    },
+    "homepage": "https://github.com/mlhamatma/lambdadeployer#readme",
+    "dependencies": {
+        "aws-sdk": "^2.45.0",
+        "colors": "^1.1.2",
+        "commander": "^2.9.0",
+        "prompt": "^1.0.0",
+        "request": "^2.81.0"
+    }
+}
